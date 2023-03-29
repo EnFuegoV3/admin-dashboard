@@ -17,14 +17,26 @@
     list-style: none;
     margin-top: 2em;
     margin-bottom: 2em;
+    padding: 0;
 }
 
 .extra {
     list-style: none;
+    padding: 0;
 }
 
 ul>li {
     padding: 10px;
+    
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+    filter: invert();
+    margin-right: 8px;
+    
+
 }
 
 .sidebar {
@@ -46,3 +58,5 @@ ul>li {
     background-color: aquamarine;
     grid-column: 2 / 3;
 }
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -4 24 24"><title>home</title><path fill="gray" d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" /></svg>
